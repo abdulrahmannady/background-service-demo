@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--LLBLGen Pro v5.5 project file. Do not manually edit this file. Incorrect references could lead to an unloadable project file.-->
+<Project Version="5.5" TargetFrameworkName="LLBLGen Pro Runtime Framework" UseLegacyDefaults="false">
+  <Properties>
+    <Abbreviations />
+    <Property Name="AdditionalTaskPerformerFolder" Value="" />
+    <Property Name="AdditionalTasksFolder" Value="" />
+    <Property Name="AdditionalTemplatesFolder" Value="" />
+    <Property Name="AdditionalTypeConverterFolder" Value="" />
+    <Property Name="AddNewElementsAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AddNewFieldsAfterRefresh_v5" Value="true" />
+    <Property Name="AddNewFieldsAfterRelationalModelDataSync_v5" Value="true" />
+    <Property Name="AddNewViewsAsEntitiesAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewViewsAsEntitiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AutoAddManyToManyRelationships" Value="false" />
+    <Property Name="AutoAssignSequencesToIntegerPks" Value="true" />
+    <Property Name="AutoAssignTypeConverterToFieldMapping" Value="true" />
+    <Property Name="ConnectionStringKeyNamePattern" Value="ConnectionString.{$ProviderName}" />
+    <Property Name="DefaultDeleteRuleAction" Value="1" />
+    <Property Name="DefaultUpdateRuleAction" Value="0" />
+    <Property Name="EncodingToUse" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForTable" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForView" Value="4" />
+    <Property Name="EntityFieldNameStripPattern" Value="{}{}" />
+    <Property Name="EntityNameStripPattern" Value="{tbl_}{}" />
+    <Property Name="ExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="FailCodeGenerationOnWriteError" Value="false" />
+    <Property Name="FieldMappedOntoRelatedFieldPattern" Value="{$RelatedFieldName}" />
+    <Property Name="FkFieldsAreNamedAfterTargetField" Value="true" />
+    <Property Name="ForeignKeyConstraintPattern" Value="FK_{$Guid}" />
+    <Property Name="ForeignKeyFieldPattern" Value="{$NavigatorName}{$RelatedFieldName}" />
+    <Property Name="GroupUsage" Value="0" />
+    <Property Name="IdentifyingFieldsFollowDBPrimaryKeyConstraints_v5" Value="true" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseInsensitiveDBs" Value="false" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseSensitiveDBs" Value="false" />
+    <Property Name="LengthPrecisionScaleFollowDBLengthPrecisionScale_v5" Value="true" />
+    <Property Name="MakeElementNamePascalCasing" Value="true" />
+    <Property Name="NavigatorMappedOntoManyToManyPattern" Value="{$EndEntityName}CollectionVia{$IntermediateEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneManyToOnePattern" Value="{$EndEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneToManyPattern" Value="{$EndEntityName$P}" />
+    <Property Name="NonExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="PreferDecimalOverCurrencyTypes" Value="true" />
+    <Property Name="PreferNaturalCharacterTypes" Value="true" />
+    <Property Name="PreferSystemSequencesOverSchemaSequencesIfApplicable" Value="true" />
+    <Property Name="PreferVariableLengthTypes" Value="true" />
+    <Property Name="PrimaryKeyConstraintPattern" Value="PK_{$Guid}" />
+    <Property Name="ProjectCreator" Value="SK" />
+    <Property Name="ProjectName" Value="WorkerServicesDemo.Data" />
+    <Property Name="ReflectNullabilityOfElementFieldInTargetField_v5" Value="false" />
+    <Property Name="ReflectTypeOfElementFieldInTargetField_v5" Value="true" />
+    <Property Name="RelationalModelDataElementNameCasingCaseInsensitiveDBs" Value="3" />
+    <Property Name="RelationalModelDataElementNameCasingCaseSensitiveDBs" Value="3" />
+    <Property Name="RelationshipsFollowDBForeignKeyConstraints_v5" Value="true" />
+    <Property Name="RemoveUnderscoresFromElementName" Value="true" />
+    <Property Name="RemoveUnmappedElementsAfterRefresh_v5" Value="false" />
+    <Property Name="RemoveUnmappedElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRefresh" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRelationalModelDataSync" Value="false" />
+    <Property Name="RetrieveDBCustomProperties" Value="false" />
+    <Property Name="RootNamespace" Value="" />
+    <Property Name="SequenceNameMatchingPattern" Value="SEQ_{$TableName}" />
+    <Property Name="SequencePattern" Value="SEQ_{$EntityName}" />
+    <Property Name="SetGroupNameAfterSchemaName" Value="true" />
+    <Property Name="SetSchemaNameAfterGroupName" Value="true" />
+    <Property Name="SingularizeElementNames" Value="true" />
+    <Property Name="StoredProcNameStripPattern" Value="{pr_, sp_}{}" />
+    <Property Name="StoreTimeLastGeneratedIntoProject" Value="false" />
+    <Property Name="StoreTimeLastSyncIntoProject" Value="true" />
+    <Property Name="SyncMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="SyncRelationalModelDataElementNameWithModelElementName_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="TableValuedFunctionNameStripPattern" Value="{fn_, pr_, sp_}{}" />
+    <Property Name="TargetPerEntityEdgesRequireBackingFkConstraint" Value="true" />
+    <Property Name="TypedViewFieldNameStripPattern" Value="{}{}" />
+    <Property Name="TypedViewMappedOnResultsetPattern" Value="{$ProcFunctionName}{$ResultsetName}Result" />
+    <Property Name="TypedViewNameStripPattern" Value="{vw_}{}" />
+    <Property Name="UniqueConstraintPattern" Value="UC_{$Guid}" />
+    <Property Name="UniqueConstraintsFollowDBUniqueConstraints_v5" Value="true" />
+    <Property Name="UpdateCustomPropertiesAfterRefresh_v5" Value="false" />
+    <Property Name="UpdateCustomPropertiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="UseCustomFieldOrderingOnNewElements" Value="false" />
+  </Properties>
+  <TypeShortcuts />
+  <IgnoredWarnings />
+  <SavedSearchQueries />
+  <CodeGenerationCyclePreferences>
+    <OutputType Value="3">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value="C:\Users\Nady\Desktop\WorkerServicesDemo\Data" />
+        <FrameworkName Value="LLBLGen Pro Runtime Framework" />
+        <LanguageName Value="C#" />
+        <PlatformName Value=".NET Standard 2.0" />
+        <PresetName Value="SD.Presets.Adapter.General.Netstandard" />
+        <RootNamespace Value="WorkerServicesDemo.Data" />
+        <TemplateGroup Value="Adapter" />
+        <TemplateBindings>
+          <Binding Name="SD.TemplateBindings.PostgreSqlSpecific" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates.Netstandard20" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates" />
+          <Binding Name="SD.TemplateBindings.General" />
+        </TemplateBindings>
+      </LastUsedPreferences>
+    </OutputType>
+  </CodeGenerationCyclePreferences>
+  <OutputSettingValues>
+    <SettingValues>
+      <SettingValue Name="1:AdapterDbGenericSubFolderName" Value="DatabaseGeneric" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificNamespaceSuffix" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificProjectFileSuffix" Value="DBSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificSubFolderName" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:ConvertNulledReferenceTypesToDefaultValue" Value="true" Type="3" />
+      <SettingValue Name="1:EntityBaseClassNameDefault" Value="CommonEntityBase" Type="18" />
+      <SettingValue Name="1:FieldPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateAsNullableTypeDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldFactory" Value="false" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldsFactory" Value="false" Type="3" />
+      <SettingValue Name="1:InlineValueTypedFields" Value="true" Type="3" />
+      <SettingValue Name="1:LazyLoadingWithoutResultReturnsNew" Value="false" Type="3" />
+      <SettingValue Name="1:NavigatorPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:SupportedActionCombinations" Value="0,1,2,3,4,5,6,7" Type="18" />
+      <SettingValue Name="1:TdlEmitTimeDateInOutputFiles" Value="false" Type="3" />
+      <SettingValue Name="1:TypedListOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+      <SettingValue Name="1:TypedViewOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+    </SettingValues>
+  </OutputSettingValues>
+  <CodeGenerationMetaDataDefaults>
+    <TargetElement Type="256">
+      <Defaults>
+        <Attributes>
+          <Attribute Value="Browsable($false)" />
+        </Attributes>
+      </Defaults>
+    </TargetElement>
+  </CodeGenerationMetaDataDefaults>
+  <EntityModel>
+    <ValueTypeDefinitions />
+    <EntityDefinitions>
+      <EntityDefinition Name="Demo" ObjectID="d16ad7c7-06a9-4bcd-977c-939b93218e5d">
+        <Fields>
+          <Field Name="DateCreated" Type="datetime" />
+          <Field Name="Id" Type="int" IsReadOnly="true" Precision="10" IsPrimaryKey="true" />
+          <Field Name="LastModified" Type="datetime" />
+          <Field Name="Value" Type="int" Precision="10" />
+        </Fields>
+      </EntityDefinition>
+    </EntityDefinitions>
+    <Relationships />
+    <InheritanceHierarchies />
+  </EntityModel>
+  <TargetDatabases>
+    <TargetDatabase Type="88EBFD8C-CBDD-4452-88AF-1C99E41A123F" SyncSource="2">
+      <ConnectionElements>
+        <ConnectionElement Name="ServerName" Value="127.0.0.1" />
+        <ConnectionElement Name="CatalogName" Value="WorkerServicesDemo" />
+        <ConnectionElement Name="UserID" Value="postgres" />
+        <ConnectionElement Name="Password" Value="" />
+        <ConnectionElement Name="PortNumber" Value="5432" />
+        <ConnectionElement Name="SslMode" Value="Disable" />
+      </ConnectionElements>
+      <SystemSequences>
+        <Sequence Name="SystemIdentity" />
+      </SystemSequences>
+      <Catalogs>
+        <Catalog Name="WorkerServicesDemo" SyncSource="2">
+          <Schemas>
+            <Schema Name="public" SyncSource="2" LastSyncWithDatabase="2021-06-15T13:01:50.9549156Z">
+              <Sequences>
+                <Sequence Name="Demo_Id_seq" />
+              </Sequences>
+              <Tables>
+                <Table Name="Demo">
+                  <PkConstraintName Name="PK_Demo" />
+                  <Fields>
+                    <Field Name="Id" Ordinal="1" IsIdentity="true" IsPrimaryKey="true" HasDefaultValue="true" DefaultValue="nextval('&quot;Demo_Id_seq&quot;'::regclass)" DefaultSequence="WorkerServicesDemo:public:Demo_Id_seq" DbType="9" Precision="10" />
+                    <Field Name="Value" Ordinal="2" DbType="9" Precision="10" />
+                    <Field Name="DateCreated" Ordinal="3" HasDefaultValue="true" DefaultValue="timezone('UTC'::text, now())" DbType="22" />
+                    <Field Name="LastModified" Ordinal="4" HasDefaultValue="true" DefaultValue="timezone('UTC'::text, now())" DbType="22" />
+                  </Fields>
+                </Table>
+              </Tables>
+            </Schema>
+          </Schemas>
+        </Catalog>
+      </Catalogs>
+    </TargetDatabase>
+  </TargetDatabases>
+  <MappingStores>
+    <MappingStore Type="88EBFD8C-CBDD-4452-88AF-1C99E41A123F">
+      <EntityMappings>
+        <EntityMapping EntityName=":Demo" TargetName="WorkerServicesDemo:public:Demo">
+          <FieldMappings>
+            <FieldMapping FieldName="DateCreated" TargetFieldName="DateCreated" />
+            <FieldMapping FieldName="Id" TargetFieldName="Id" SequenceToUse="WorkerServicesDemo:public:Demo_Id_seq" />
+            <FieldMapping FieldName="LastModified" TargetFieldName="LastModified" />
+            <FieldMapping FieldName="Value" TargetFieldName="Value" />
+          </FieldMappings>
+        </EntityMapping>
+      </EntityMappings>
+      <TypedViewMappings />
+      <SPCallMappings />
+      <TvfCallMappings />
+      <TypeConversionDefinitions />
+    </MappingStore>
+  </MappingStores>
+  <ModelViews />
+</Project>

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>../../Migration</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentMigrator" Version="3.2.16" />
+    <PackageReference Include="FluentMigrator.Runner" Version="3.2.16" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0-preview.1.21102.12" />
+    <PackageReference Include="Npgsql" Version="6.0.0-preview2" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.20071.2" />
+  </ItemGroup>
+
+</Project>
